@@ -34,6 +34,7 @@ p{
   margin: 3% 30% 3% 30%;
   color:white;
   border:5px solid rgb(184, 78, 78);
+  border-radius: 8px;
 }
 
 .friendCont {
@@ -42,12 +43,24 @@ p{
   justify-content: space-between;
 }
 .friends{
-  font-size: 4rem;
+  font-size: 6rem;
   color: white;
   font-family: 'Mansalva', cursive;
 }
 
 button{
   background-color: rgb(206, 79, 79);
+  border-radius: 8px;
+  height: 3rem;
+  width: 20%;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+input{
+  height:3rem;
+  margin: 2% 2%;
+  width: 40%;
   border-radius: 5px;
+  font-size: 2rem;
 }
