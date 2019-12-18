@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-image: url("https://www.nme.com/wp-content/uploads/2018/02/centralperk-696x442.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+
+nav {
+  background-color: lemonchiffon;
+  border: 3px solid gray;
+}
+
+.link {
+  margin: 8% 8% auto;
+  font-size: 3rem;
+  text-decoration: none;
+  font-weight:bold;
+  color:rgb(29, 25, 25);
+
+}
+
+p{
+  font-size: 1.5rem;
+}
+
+.friendCard {
+  width: 40%;
+  height:20%;
+  background-color: rgb(100, 160, 100);
+  margin: 3% 30% 3% 30%;
+  color:white;
+  border:5px solid rgb(184, 78, 78);
+}
+
+.friendCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.friends{
+  font-size: 4rem;
+  color: white;
+  font-family: 'Mansalva', cursive;
+}
+
+button{
+  background-color: rgb(206, 79, 79);
+  border-radius: 5px;
+}
